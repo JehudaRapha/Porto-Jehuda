@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Jehuda Rapha Putra Hermantan — Web Developer, IoT Engineer & AI Enthusiast | Portfolio" />
+    <title>Jehuda Rapha | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Clash+Display:wght@400;500;600;700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+    <!-- Fallback display font -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <header class="navbar" id="navbar">
+      <a href="#home" class="logo"> <span class="logo-bracket">&lt;</span>JehDev<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span> </a>
+      <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-link" data-text="Home">Home</a>
+        <a href="#about" class="nav-link" data-text="About">About</a>
+        <a href="#projects" class="nav-link" data-text="Projects">Projects</a>
+        <a href="#certifications" class="nav-link" data-text="Certifications">Certifications</a>
+        <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- Mobile menu overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="home" class="hero">
+      <!-- Grid + ambient background -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+        <div class="scan-line"></div>
+      </div>
+
+      <div class="container hero-container">
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <span class="badge-text">Open for Collaboration</span>
+          </div>
+
+          <div class="hero-name-block">
+            <p class="hero-greeting">Hi there, I'm</p>
+            <h1 class="hero-name">
+              <span class="name-line">Jehuda</span>
+              <span class="name-line accent-line">Rapha</span>
+            </h1>
+          </div>
+
+          <div class="hero-role-wrap">
+            <span class="role-prefix">A&nbsp;</span>
+            <span class="typing-wrap">
+              <span class="typing" aria-live="polite"></span>
+              <span class="cursor" aria-hidden="true">|</span>
+            </span>
+          </div>
+
+          <p class="hero-desc">
+            Membangun solusi digital inovatif yang memadukan
+            <mark class="highlight-ai">Artificial Intelligence</mark>, <mark class="highlight-web">Web Development</mark>, dan <mark class="highlight-iot">Internet of Things</mark> — dari konsep hingga implementasi nyata.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="scrollToSection('projects')">
+              <span class="btn-icon"><i class="fa-solid fa-rocket"></i></span>
+              <span>Lihat Projects</span>
+            </button>
+            <button class="btn btn-ghost" onclick="scrollToSection('contact')">
+              <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
+              <span>Hubungi Saya</span>
+            </button>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hs-item">
+              <span class="hs-num">4+</span>
+              <span class="hs-lbl">Projects</span>
+            </div>
+            <div class="hs-sep"></div>
+            <div class="hs-item">
+              <span class="hs-num">3</span>
+              <span class="hs-lbl">Domains</span>
+            </div>
+            <div class="hs-sep"></div>
+            <div class="hs-item">
+              <span class="hs-num">5+</span>
+              <span class="hs-lbl">Sertifikasi</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Tech Domain Cards -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hv-ring-deco"></div>
+          <div class="hv-cards">
+            <div class="hv-card hv-ai">
+              <div class="hv-card-glow"></div>
+              <div class="hv-card-header">
+                <div class="hv-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="hv-status"><span class="hv-dot"></span>Active</div>
+              </div>
+              <h4>Artificial Intelligence</h4>
+              <p>Face Recognition · ML Models · Deep Learning</p>
+              <div class="hv-tags"><span>Python</span><span>TensorFlow</span><span>OpenCV</span></div>
+              <div class="hv-progress-bar"><div class="hv-progress-fill ai-fill"></div></div>
+            </div>
+
+            <div class="hv-card hv-web">
+              <div class="hv-card-glow"></div>
+              <div class="hv-card-header">
+                <div class="hv-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="hv-status"><span class="hv-dot"></span>Active</div>
+              </div>
+              <h4>Web Development</h4>
+              <p>Responsive · Interactive · Modern UI/UX</p>
+              <div class="hv-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="hv-progress-bar"><div class="hv-progress-fill web-fill"></div></div>
+            </div>
+
+            <div class="hv-card hv-iot">
+              <div class="hv-card-glow"></div>
+              <div class="hv-card-header">
+                <div class="hv-icon"><i class="fa-solid fa-microchip"></i></div>
+                <div class="hv-status"><span class="hv-dot"></span>Active</div>
+              </div>
+              <h4>Internet of Things</h4>
+              <p>Smart Sensors · Cloud Dashboard · Blynk</p>
+              <div class="hv-tags"><span>ESP32</span><span>Arduino</span><span>Blynk</span></div>
+              <div class="hv-progress-bar"><div class="hv-progress-fill iot-fill"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="about">
+      <div class="about-bg-deco" aria-hidden="true">
+        <div class="about-orb"></div>
+      </div>
+      <div class="container about-container">
+        <!-- Photo -->
+        <div class="about-photo-col fade-in">
+          <div class="photo-frame-outer">
+            <div class="photo-frame-ring r1"></div>
+            <div class="photo-frame-ring r2"></div>
+            <div class="photo-frame-ring r3"></div>
+            <div class="photo-frame-inner">
+              <img src="img/MyFace11.jpg" alt="Jehuda Rapha Putra Hermantan" class="about-photo" loading="lazy" />
+            </div>
+            <div class="photo-corner tl"></div>
+            <div class="photo-corner tr"></div>
+            <div class="photo-corner bl"></div>
+            <div class="photo-corner br"></div>
+          </div>
+          <div class="photo-float-badge">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <span class="pfb-title">Satu University</span>
+              <span class="pfb-sub">Teknik Informatika</span>
+            </div>
+          </div>
+          <div class="photo-float-badge pfb-right">
+            <i class="fa-solid fa-users" style="color: var(--web-color)"></i>
+            <div>
+              <span class="pfb-title">Ketua HIMATIKA</span>
+              <span class="pfb-sub">Himpunan Mahasiswa Teknik Informatika</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="about-text fade-in">
+          <div class="section-tag">Tentang Saya</div>
+          <h2 class="section-heading">Siapa <span class="gradient-text">Jehuda?</span></h2>
+
+          <p class="about-intro">
+            Saya adalah <strong>Jehuda Rapha Putra Hermantan</strong>, mahasiswa Teknik Informatika berusia 19 tahun di <strong>Satu University</strong> yang berfokus pada pengembangan solusi berbasis <strong>Web Development</strong> dan
+            <strong>Internet of Things (IoT)</strong>.
+          </p>
+          <p>
+            Saya berpengalaman dalam membangun <strong>website interaktif & responsif</strong> dengan tampilan modern serta mengembangkan <strong>sistem IoT</strong> yang mampu melakukan monitoring dan kontrol secara real-time melalui
+            integrasi cloud. Selain itu, saya juga memiliki pemahaman dasar dalam <strong>Artificial Intelligence</strong> untuk mendukung pengembangan sistem yang lebih cerdas.
+          </p>
+          <p>
+            Sebagai <strong>Ketua Himpunan Teknik Informatika</strong>, saya terbiasa memimpin tim, mengelola proyek end-to-end, dan memastikan setiap solusi yang dibangun tidak hanya berjalan dengan baik, tetapi juga memberikan dampak
+            nyata.
+          </p>
+
+          <div class="about-skills">
+            <div class="skill-chip ai"><i class="fa-solid fa-brain"></i> AI &amp; Machine Learning</div>
+            <div class="skill-chip web"><i class="fa-solid fa-code"></i> Web Development</div>
+            <div class="skill-chip iot"><i class="fa-solid fa-microchip"></i> IoT Engineering</div>
+            <div class="skill-chip lead"><i class="fa-solid fa-users"></i> Team Leadership</div>
+          </div>
+
+          <div class="about-cta-row">
+            <a href="#certifications" class="btn btn-primary">
+              <span class="btn-icon"><i class="fa-solid fa-award"></i></span>
+              <span>Lihat Sertifikasi</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <span class="btn-icon"><i class="fa-solid fa-handshake"></i></span>
+              <span>Kolaborasi</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects" class="projects">
+      <div class="projects-bg-deco" aria-hidden="true">
+        <div class="proj-orb-1"></div>
+        <div class="proj-orb-2"></div>
+      </div>
+      <div class="container">
+        <div class="section-header fade-in">
+          <div class="section-tag">Karya Saya</div>
+          <h2 class="section-heading">Projects <span class="gradient-text">Pilihan</span></h2>
+          <p class="section-desc">Proyek-proyek nyata yang telah saya bangun, mencakup bidang IoT, Artificial Intelligence, dan Web Development.</p>
+        </div>
+
+        <!-- === COMPLETED === -->
+        <div class="project-group fade-in">
+          <div class="project-group-label completed">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Proyek Selesai</span>
+            <div class="group-line"></div>
+          </div>
+          <div class="project-cards">
+            <!-- Smart Garden -->
+            <div class="project-card fade-in">
+              <div class="project-imgs" data-group="smart-garden">
+                <img src="img/smartgarden1.jpg" alt="Smart Garden — Tampilan Hardware" class="proj-img clickable-img" />
+                <img src="img/smartgarden2.jpg" alt="Smart Garden — Blynk Dashboard" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                  <span class="domain-badge web"><i class="fa-solid fa-mobile-screen"></i> Blynk App</span>
+                </div>
+                <h3>Smart Garden Monitoring &amp; Control System</h3>
+                <p>
+                  Sistem pemantauan dan pengendalian kebun cerdas berbasis IoT yang memungkinkan monitoring kondisi lingkungan tanaman secara <strong>real-time</strong> lewat aplikasi <strong>Blynk</strong>. Mengukur <strong>suhu</strong>,
+                  <strong>kelembaban tanah</strong>, dan <strong>kelembaban udara</strong> dengan kontrol aktuator jarak jauh.
+                </p>
+                <div class="project-role-block">
+                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya</span>
+                    <p>Full developer — perancangan skematik hardware, pengembangan firmware mikrokontroler, integrasi multi-sensor, dan konfigurasi dashboard Blynk.</p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>DHT11</span><span>Soil Sensor</span><span>Blynk IoT</span><span>C++</span><span>Arduino IDE</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- === ONGOING === -->
+        <div class="project-group fade-in">
+          <div class="project-group-label ongoing">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <span>Sedang Dikerjakan</span>
+            <div class="group-line"></div>
+          </div>
+          <div class="project-cards">
+            <!-- Water Quality -->
+            <div class="project-card fade-in">
+              <div class="project-imgs" data-group="water-quality">
+                <img src="img/project_iot_ph_tds_tb1.jpeg" alt="Water Quality — Sensor Setup" class="proj-img clickable-img" />
+                <img src="img/project_iot_ph_tds_tb2.jpeg" alt="Water Quality — Cloud Dashboard" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                  <span class="domain-badge monitor"><i class="fa-solid fa-chart-line"></i> Monitoring</span>
+                </div>
+                <h3>IoT Water Quality Monitoring System</h3>
+                <p>
+                  Sistem pemantauan kualitas air berbasis IoT yang mengukur tiga parameter kritis secara real-time: <strong>pH</strong> (keasaman), <strong>TDS</strong> (padatan terlarut), dan <strong>Turbidity</strong> (kekeruhan). Data
+                  dikirimkan ke cloud dashboard untuk pemantauan jarak jauh yang akurat.
+                </p>
+                <div class="project-role-block">
+                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya</span>
+                    <p>IoT Engineer — koneksi sensor ke mikrokontroler ESP32 dan transmisi data real-time ke cloud via protokol MQTT.</p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>pH Sensor</span><span>TDS Sensor</span><span>Turbidity</span><span>MQTT</span><span>Cloud Dashboard</span></div>
+              </div>
+            </div>
+
+            <!-- Diabetes Detection -->
+            <div class="project-card fade-in">
+              <div class="project-imgs" data-group="diabetes">
+                <img src="img/diabet 1.jpeg" alt="Diabetes Detection — Hardware Prototype" class="proj-img clickable-img" />
+                <img src="img/diabet 2.jpeg" alt="Diabetes Detection — ML Output &amp; Data" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge ai"><i class="fa-solid fa-brain"></i> AI / ML</span>
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                </div>
+                <h3>Diabetes Early Detection System</h3>
+                <p>
+                  Sistem deteksi dini risiko diabetes yang memadukan <strong>Machine Learning</strong> dan <strong>IoT</strong> untuk menganalisis parameter biometrik secara non-invasif. Model ML memproses data sensor IoT untuk memprediksi
+                  risiko diabetes dan memberikan rekomendasi kesehatan real-time.
+                </p>
+                <div class="project-role-block">
+                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya</span>
+                    <p>IoT Engineer — perancangan perangkat keras (skematik &amp; PCB), desain logika pengukuran sensor biometrik, dan integrasi data IoT ke pipeline Machine Learning.</p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>Biometric Sensor</span><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>IoT Protocol</span></div>
+              </div>
+            </div>
+
+            <!-- Smart Room — FEATURED -->
+            <div class="project-card project-card--featured fade-in">
+              <div class="featured-badge"><i class="fa-solid fa-star"></i> Featured</div>
+              <div class="project-imgs" data-group="smart-room">
+                <img src="img/face_recog.png" alt="Smart Room — Face Recognition System" class="proj-img clickable-img" />
+                <img src="img/dashboard_face_recog.png" alt="Smart Room — Monitoring Dashboard" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay featured-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge ai"><i class="fa-solid fa-brain"></i> AI / Vision</span>
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                  <span class="domain-badge web"><i class="fa-solid fa-gauge-high"></i> Dashboard</span>
+                </div>
+                <h3>IoT-Based Smart Room Monitoring System</h3>
+                <p>
+                  Sistem monitoring ruangan cerdas yang memadukan <strong>IoT</strong> dan <strong>Face Recognition AI</strong> untuk mendeteksi serta menghitung jumlah <strong>okupansi ruangan secara real-time</strong>. Data ditampilkan
+                  melalui dashboard monitoring terpusat untuk meningkatkan efisiensi penggunaan ruangan.
+                </p>
+                <div class="project-role-block featured-role">
+                  <div class="role-icon"><i class="fa-solid fa-microchip"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya — IoT Engineer</span>
+                    <p>
+                      Bertanggung jawab atas seluruh bagian <strong>IoT</strong>: perancangan dan perakitan hardware sensor, pemrograman firmware ESP32, serta integrasi pengiriman data real-time dari perangkat IoT ke sistem dashboard via
+                      protokol MQTT/HTTP.
+                    </p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>MQTT</span><span>Sensor Integration</span><span>Firmware C++</span><span>IoT Protocol</span><span>Real-time Data</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS ==================== -->
+    <section id="certifications" class="certifications">
+      <div class="cert-bg-deco" aria-hidden="true">
+        <div class="cert-orb"></div>
+      </div>
+      <div class="container">
+        <div class="section-header fade-in">
+          <div class="section-tag">Kredensial</div>
+          <h2 class="section-heading">Sertifikasi &amp; <span class="gradient-text">Pencapaian</span></h2>
+          <p class="section-desc">Sertifikat dan penghargaan yang telah saya raih sebagai bukti kompetensi nyata. Klik kartu untuk melihat sertifikat lengkap.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- 1 — AI Fundamentals -->
+          <div class="cert-card" data-img="img/sertif_ai_dasar.png" data-title="Fundamentals of Artificial Intelligence — Dicoding Academy">
+            <div class="cert-card-glow"></div>
+            <div class="cert-thumb">
+              <img src="img/sertif_ai_dasar.png" alt="Sertifikat Fundamentals of AI" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Sertifikat</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Dicoding Academy</span>
+              <h3>Fundamentals of Artificial Intelligence</h3>
+              <p>Mempelajari konsep dasar AI secara menyeluruh: machine learning, deep learning, neural network, hingga implementasi nyata dalam proyek berbasis data.</p>
+            </div>
+          </div>
+
+          <!-- 2 — Scientific Article -->
+          <div class="cert-card" data-img="img/sertif_artikel_ilmiah.jpg" data-title="Scientific Article Writing Certificate">
+            <div class="cert-card-glow"></div>
+            <div class="cert-thumb">
+              <img src="img/sertif_artikel_ilmiah.jpg" alt="Sertifikat Scientific Article Writing" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Sertifikat</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Academic Writing</span>
+              <h3>Scientific Article Writing</h3>
+              <p>Pelatihan penulisan artikel ilmiah akademik yang sistematis, terstruktur, dan sesuai standar jurnal internasional bereputasi.</p>
+            </div>
+          </div>
+
+          <!-- 3 — FIKSI 2023 -->
+          <div class="cert-card cert-card--award" data-img="img/sertif_fiksi.png" data-title="Juara 3 — FIKSI 2023 Digital Technology Competition">
+            <div class="cert-card-glow award-glow"></div>
+            <div class="cert-award-ribbon"><i class="fa-solid fa-trophy"></i> Award</div>
+            <div class="cert-thumb">
+              <img src="img/sertif_fiksi.png" alt="Sertifikat FIKSI 2023 Juara 3" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Sertifikat</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer cert-award-issuer"><i class="fa-solid fa-trophy"></i> Competition Award</span>
+              <h3>Juara 3 — FIKSI 2023</h3>
+              <p>Meraih Juara 3 dalam kompetisi teknologi digital FIKSI 2023 dengan project inovatif di bidang teknologi informasi tingkat regional.</p>
+            </div>
+          </div>
+
+          <!-- 4 — Prompt Engineering -->
+          <div class="cert-card" data-img="img/sertif_prompt_engineering.png" data-title="Prompt Engineering for Developers — Dicoding Academy">
+            <div class="cert-card-glow"></div>
+            <div class="cert-thumb">
+              <img src="img/sertif_prompt_engineering.png" alt="Sertifikat Prompt Engineering" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Sertifikat</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Dicoding Academy</span>
+              <h3>Prompt Engineering for Developers</h3>
+              <p>Menguasai teknik prompt engineering untuk membangun aplikasi AI yang efektif dan akurat menggunakan Large Language Models (LLM).</p>
+            </div>
+          </div>
+
+          <!-- 5 — Python -->
+          <div class="cert-card" data-img="img/sertif_python_dicoding.png" data-title="Python Programming Basics — Dicoding Academy">
+            <div class="cert-card-glow"></div>
+            <div class="cert-thumb">
+              <img src="img/sertif_python_dicoding.png" alt="Sertifikat Python Programming" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>Lihat Sertifikat</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Dicoding Academy</span>
+              <h3>Python Programming Basics</h3>
+              <p>Menguasai dasar-dasar pemrograman Python sebagai fondasi utama untuk pengembangan AI, data science, dan otomasi sistem IoT.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="contact">
+      <div class="contact-bg-deco" aria-hidden="true">
+        <div class="contact-orb"></div>
+        <div class="contact-grid"></div>
+      </div>
+      <div class="container">
+        <div class="section-header fade-in" style="text-align: center">
+          <div class="section-tag" style="margin: 0 auto 18px">Kontak</div>
+          <h2 class="section-heading">Mari <span class="gradient-text">Berkolaborasi</span></h2>
+          <p class="section-desc" style="margin: 0 auto 52px">Terbuka untuk diskusi project, kolaborasi riset, maupun peluang kerja di bidang AI, Web, dan IoT. Jangan ragu menghubungi saya!</p>
+        </div>
+
+        <div class="contact-cards">
+          <a href="mailto:jehudarapha653@email.com" class="contact-card email fade-in">
+            <div class="cc-glow"></div>
+            <div class="contact-icon-wrap">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="cc-ripple"></div>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">jehudarapha653@email.com</span>
+            </div>
+            <div class="cc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.instagram.com/jehuda_rapha/" target="_blank" rel="noopener noreferrer" class="contact-card instagram fade-in">
+            <div class="cc-glow"></div>
+            <div class="contact-icon-wrap">
+              <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+              <div class="cc-ripple"></div>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">Instagram</span>
+              <span class="contact-value">@jehuda_rapha</span>
+            </div>
+            <div class="cc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jehuda-rapha-putra-hermantan-52136a31b/" target="_blank" rel="noopener noreferrer" class="contact-card linkedin fade-in">
+            <div class="cc-glow"></div>
+            <div class="contact-icon-wrap">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="cc-ripple"></div>
+            </div>
+            <div class="contact-info">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">Jehuda Rapha Putra Hermantan</span>
+            </div>
+            <div class="cc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-logo"><span class="logo-bracket">&lt;</span>JehDev<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span></div>
+        <p class="footer-tagline">Engineer of ideas — turning concepts into real-world solutions.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="footer-copy">© 2026 Jehuda Rapha Putra Hermantan. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ==================== CERTIFICATE MODAL ==================== -->
+    <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-label="Certificate Viewer">
+      <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+      <div class="cert-modal-box">
+        <div class="cert-modal-header">
+          <p class="cert-modal-title" id="certModalTitle"></p>
+          <button class="cert-modal-close" id="certModalClose" aria-label="Tutup modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="cert-modal-img-wrap">
+          <img class="cert-modal-img" id="certModalImg" src="" alt="Sertifikat" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== LIGHTBOX ==================== -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Gambar sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Gambar berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="lightbox-img-wrap">
+        <img class="lightbox-img" id="lightboxImg" src="" alt="Preview gambar project" />
+      </div>
+      <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
