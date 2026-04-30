@@ -27,196 +27,208 @@
 const translations = {
   en: {
     /* NAV */
-    'nav.home':           'Home',
-    'nav.about':          'About',
-    'nav.projects':       'Projects',
+    'nav.home': 'Home',
+    'nav.about': 'About',
+    'nav.projects': 'Projects',
     'nav.certifications': 'Certifications',
-    'nav.contact':        'Contact',
+    'nav.contact': 'Contact',
 
     /* UI CONTROLS */
-    'ui.light':       'Light',
-    'ui.dark':        'Dark',
-    'ui.active':      'Active',
-    'ui.scroll':      'Scroll',
-    'ui.viewCert':    'View Certificate',
-    'ui.clickEnlarge':'Click to enlarge',
-    'ui.myRole':      'My Role',
+    'ui.light': 'Light',
+    'ui.dark': 'Dark',
+    'ui.active': 'Active',
+    'ui.scroll': 'Scroll',
+    'ui.viewCert': 'View Certificate',
+    'ui.clickEnlarge': 'Click to enlarge',
+    'ui.myRole': 'My Role',
 
     /* HERO */
-    'hero.badge':        'Open for Collaboration',
-    'hero.greeting':     "Hi there, I'm",
-    'hero.rolePrefix':   'A\u00a0',
-    'hero.desc':         'Building real-world digital solutions through <mark class="highlight-web">Web Development</mark> and <mark class="highlight-iot">Internet of Things</mark> \u2014 from responsive interfaces to smart sensor systems.',
-    'hero.btnProjects':  'View Projects',
-    'hero.btnContact':   'Contact Me',
-    'hero.statsProjects':'Projects',
+    'hero.badge': 'Open for Collaboration',
+    'hero.greeting': "Hi there, I'm",
+    'hero.rolePrefix': 'A\u00a0',
+    'hero.desc': 'Building real-world digital solutions through <mark class="highlight-web">Web Development</mark> and <mark class="highlight-iot">Internet of Things</mark> \u2014 from responsive interfaces to smart sensor systems.',
+    'hero.btnProjects': 'View Projects',
+    'hero.btnContact': 'Contact Me',
+    'hero.statsProjects': 'Projects',
     'hero.statsDomains': 'Domains',
-    'hero.statsCerts':   'Certifications',
+    'hero.statsCerts': 'Certifications',
 
     /* ABOUT */
-    'about.tag':         'About Me',
-    'about.headingPre':  'Who is ',
-    'about.major':       'Informatics Engineering',
-    'about.orgTitle':    'Chairman of HIMATIKA',
-    'about.orgSub':      'Informatics Engineering Student Association',
-    'about.intro':       'I am <strong>Jehuda Rapha Putra Hermantan</strong>, a 19-year-old Informatics Engineering student at <strong>Satu University</strong>, focusing on building solutions in <strong>Web Development</strong> and <strong>Internet of Things (IoT)</strong>.',
-    'about.p1':          'I build <strong>interactive &amp; responsive websites</strong> with modern UI/UX, and develop <strong>IoT systems</strong> for real-time monitoring and remote control via cloud platforms like Blynk and MQTT dashboards.',
-    'about.p2':          'As <strong>Chairman of the Informatics Engineering Student Association</strong>, I am accustomed to leading teams, managing end-to-end projects, and ensuring every solution not only runs well but also delivers real impact.',
-    'about.skillWeb':    'Web Development',
-    'about.skillIoT':    'IoT Engineering',
-    'about.skillLead':   'Team Leadership',
-    'about.skillProblem':'Problem Solving',
-    'about.btnCerts':    'View Certifications',
-    'about.btnCollab':   'Collaborate',
+    'about.tag': 'About Me',
+    'about.headingPre': 'Who is ',
+    'about.major': 'Informatics Engineering',
+    'about.orgTitle': 'Chairman of HIMATIKA',
+    'about.orgSub': 'Informatics Engineering Student Association',
+    'about.intro':
+      'I am <strong>Jehuda Rapha Putra Hermantan</strong>, a 19-year-old Informatics Engineering student at <strong>Satu University</strong>, focusing on building solutions in <strong>Web Development</strong> and <strong>Internet of Things (IoT)</strong>.',
+    'about.p1': 'I build <strong>interactive responsive websites</strong> with modern UI/UX, and develop <strong>IoT systems</strong> for real-time monitoring and remote control via cloud platforms like Blynk and MQTT dashboards.',
+    'about.p2':
+      'As <strong>Chairman of the Informatics Engineering Student Association</strong>, I am accustomed to leading teams, managing end-to-end projects, and ensuring every solution not only runs well but also delivers real impact.',
+    'about.skillWeb': 'Web Development',
+    'about.skillIoT': 'IoT Engineering',
+    'about.skillLead': 'Team Leadership',
+    'about.skillProblem': 'Problem Solving',
+    'about.btnCerts': 'View Certifications',
+    'about.btnCollab': 'Collaborate',
 
     /* PROJECTS */
-    'projects.tag':            'My Works',
-    'projects.headingPre':     'Featured ',
-    'projects.headingAccent':  'Projects',
-    'projects.desc':           'Real-world projects spanning Web Development and Internet of Things \u2014 built and deployed with real impact.',
+    'projects.tag': 'My Works',
+    'projects.headingPre': 'Featured ',
+    'projects.headingAccent': 'Projects',
+    'projects.desc': 'Real-world projects spanning Web Development and Internet of Things \u2014 built and deployed with real impact.',
     'projects.labelCompleted': 'Completed Projects',
-    'projects.labelOngoing':   'In Progress',
+    'projects.labelOngoing': 'In Progress',
 
-    'proj.sg.title': 'Smart Garden Monitoring &amp; Control System',
-    'proj.sg.desc':  'An IoT-based smart garden monitoring and control system enabling <strong>real-time</strong> environmental monitoring via the <strong>Blynk</strong> app. Measures <strong>temperature</strong>, <strong>soil moisture</strong>, and <strong>air humidity</strong> with remote actuator control.',
-    'proj.sg.role':  'Full developer \u2014 hardware schematic design, microcontroller firmware development, multi-sensor integration, and Blynk dashboard configuration.',
+    'proj.sg.title': 'Smart Garden Monitoring Control System',
+    'proj.sg.desc':
+      'An IoT-based smart garden monitoring and control system enabling <strong>real-time</strong> environmental monitoring via the <strong>Blynk</strong> app. Measures <strong>temperature</strong>, <strong>soil moisture</strong>, and <strong>air humidity</strong> with remote actuator control.',
+    'proj.sg.role': 'Full developer \u2014 hardware schematic design, microcontroller firmware development, multi-sensor integration, and Blynk dashboard configuration.',
 
     'proj.wq.title': 'IoT Water Quality Monitoring System',
-    'proj.wq.desc':  'An IoT-based water quality monitoring system measuring three critical parameters in real-time: <strong>pH</strong> (acidity), <strong>TDS</strong> (total dissolved solids), and <strong>Turbidity</strong> (cloudiness). Data is sent to a cloud dashboard for accurate remote monitoring.',
-    'proj.wq.role':  'IoT Engineer \u2014 sensor-to-ESP32 wiring and real-time data transmission to the cloud via MQTT protocol.',
+    'proj.wq.desc':
+      'An IoT-based water quality monitoring system measuring three critical parameters in real-time: <strong>pH</strong> (acidity), <strong>TDS</strong> (total dissolved solids), and <strong>Turbidity</strong> (cloudiness). Data is sent to a cloud dashboard for accurate remote monitoring.',
+    'proj.wq.role': 'IoT Engineer \u2014 sensor-to-ESP32 wiring and real-time data transmission to the cloud via MQTT protocol.',
 
     'proj.dd.title': 'Diabetes Early Detection System',
-    'proj.dd.desc':  'An early diabetes risk detection system combining <strong>Machine Learning</strong> and <strong>IoT</strong> to analyze biometric parameters non-invasively. The ML model processes IoT sensor data to predict diabetes risk and deliver real-time health recommendations.',
-    'proj.dd.role':  'IoT Engineer \u2014 hardware design (schematic &amp; PCB), biometric sensor measurement logic, and IoT data integration into the Machine Learning pipeline.',
+    'proj.dd.desc':
+      'An early diabetes risk detection system combining <strong>Machine Learning</strong> and <strong>IoT</strong> to analyze biometric parameters non-invasively. The ML model processes IoT sensor data to predict diabetes risk and deliver real-time health recommendations.',
+    'proj.dd.role': 'IoT Engineer \u2014 hardware design (schematic PCB), biometric sensor measurement logic, and IoT data integration into the Machine Learning pipeline.',
 
-    'proj.sr.title':     'IoT-Based Smart Room Monitoring System',
-    'proj.sr.desc':      'Smart room monitoring system with IoT and vision sensor to detect and count <strong>room occupancy in real-time</strong>. Data is visualized on a centralized monitoring dashboard for space utilization efficiency.',
+    'proj.sr.title': 'IoT-Based Smart Room Monitoring System',
+    'proj.sr.desc': 'Smart room monitoring system with IoT and vision sensor to detect and count <strong>room occupancy in real-time</strong>. Data is visualized on a centralized monitoring dashboard for space utilization efficiency.',
     'proj.sr.roleTitle': 'My Role \u2014 IoT Engineer',
-    'proj.sr.role':      'Responsible for the entire <strong>IoT</strong> layer: sensor hardware design and assembly, ESP32 firmware programming, and real-time data transmission from IoT devices to the dashboard system via MQTT/HTTP protocol.',
+    'proj.sr.role': 'Responsible for the entire <strong>IoT</strong> layer: sensor hardware design and assembly, ESP32 firmware programming, and real-time data transmission from IoT devices to the dashboard system via MQTT/HTTP protocol.',
 
     /* CERTIFICATIONS */
-    'certs.tag':          'Credentials',
-    'certs.headingPre':   'Certifications &amp; ',
-    'certs.headingAccent':'Achievements',
-    'certs.desc':         'Certificates and awards I have earned as proof of real competence. Click any card to view the full certificate.',
+    'certs.tag': 'Credentials',
+    'certs.headingPre': 'Certifications',
+    'certs.headingAccent': 'Achievements',
+    'certs.desc': 'Certificates and awards I have earned as proof of real competence. Click any card to view the full certificate.',
 
-    'cert.ai.title':      'Fundamentals of Artificial Intelligence',
-    'cert.ai.desc':       'A comprehensive study of core AI concepts: machine learning, deep learning, neural networks, and real-world implementation in data-driven projects.',
+    'cert.ai.title': 'Fundamentals of Artificial Intelligence',
+    'cert.ai.desc': 'A comprehensive study of core AI concepts: machine learning, deep learning, neural networks, and real-world implementation in data-driven projects.',
     'cert.article.title': 'Scientific Article Writing',
-    'cert.article.desc':  'Training in systematic and structured academic writing aligned with the standards of reputable international journals.',
-    'cert.fiksi.title':   '3rd Place \u2014 FIKSI 2023',
-    'cert.fiksi.desc':    'Achieved 3rd place in the FIKSI 2023 regional digital technology competition with an innovative project in information technology.',
-    'cert.prompt.title':  'Prompt Engineering for Developers',
-    'cert.prompt.desc':   'Mastering prompt engineering techniques to build effective and accurate AI applications using Large Language Models (LLMs).',
-    'cert.python.title':  'Python Programming Basics',
-    'cert.python.desc':   'Mastering Python fundamentals as the primary foundation for AI development, data science, and IoT system automation.',
+    'cert.article.desc': 'Training in systematic and structured academic writing aligned with the standards of reputable international journals.',
+    'cert.fiksi.title': '3rd Place \u2014 FIKSI 2023',
+    'cert.fiksi.desc': 'Achieved 3rd place in the FIKSI 2023 regional digital technology competition with an innovative project in information technology.',
+    'cert.prompt.title': 'Prompt Engineering for Developers',
+    'cert.prompt.desc': 'Mastering prompt engineering techniques to build effective and accurate AI applications using Large Language Models (LLMs).',
+    'cert.python.title': 'Python Programming Basics',
+    'cert.python.desc': 'Mastering Python fundamentals as the primary foundation for AI development, data science, and IoT system automation.',
 
     /* CONTACT */
-    'contact.tag':           'Contact',
-    'contact.headingPre':    "Let's ",
+    'contact.tag': 'Contact',
+    'contact.headingPre': "Let's ",
     'contact.headingAccent': 'Collaborate',
-    'contact.desc':          "Open for project discussions, research collaborations, and career opportunities in Web and IoT. Don't hesitate to reach out!",
+    'contact.desc': "Open for project discussions, research collaborations, and career opportunities in Web and IoT. Don't hesitate to reach out!",
 
     /* FOOTER */
     'footer.tagline': 'Engineer of ideas \u2014 turning concepts into real-world solutions.',
-    'footer.copy':    '\u00a9 2026 Jehuda Rapha Putra Hermantan. All rights reserved.',
+    'footer.copy': '\u00a9 2026 Jehuda Rapha Putra Hermantan. All rights reserved.',
   },
 
   id: {
     /* NAV */
-    'nav.home':           'Beranda',
-    'nav.about':          'Tentang',
-    'nav.projects':       'Proyek',
+    'nav.home': 'Beranda',
+    'nav.about': 'Tentang',
+    'nav.projects': 'Proyek',
     'nav.certifications': 'Sertifikasi',
-    'nav.contact':        'Kontak',
+    'nav.contact': 'Kontak',
 
     /* UI CONTROLS */
-    'ui.light':       'Terang',
-    'ui.dark':        'Gelap',
-    'ui.active':      'Aktif',
-    'ui.scroll':      'Gulir',
-    'ui.viewCert':    'Lihat Sertifikat',
-    'ui.clickEnlarge':'Klik untuk perbesar',
-    'ui.myRole':      'Peran Saya',
+    'ui.light': 'Terang',
+    'ui.dark': 'Gelap',
+    'ui.active': 'Aktif',
+    'ui.scroll': 'Gulir',
+    'ui.viewCert': 'Lihat Sertifikat',
+    'ui.clickEnlarge': 'Klik untuk perbesar',
+    'ui.myRole': 'Peran Saya',
 
     /* HERO */
-    'hero.badge':        'Terbuka untuk Kolaborasi',
-    'hero.greeting':     'Halo, saya',
-    'hero.rolePrefix':   'Seorang\u00a0',
-    'hero.desc':         'Membangun solusi digital nyata melalui <mark class="highlight-web">Pengembangan Web</mark> dan <mark class="highlight-iot">Internet of Things</mark> \u2014 dari antarmuka responsif hingga sistem sensor cerdas.',
-    'hero.btnProjects':  'Lihat Proyek',
-    'hero.btnContact':   'Hubungi Saya',
-    'hero.statsProjects':'Proyek',
+    'hero.badge': 'Terbuka untuk Kolaborasi',
+    'hero.greeting': 'Halo, saya',
+    'hero.rolePrefix': 'Seorang\u00a0',
+    'hero.desc': 'Membangun solusi digital nyata melalui <mark class="highlight-web">Pengembangan Web</mark> dan <mark class="highlight-iot">Internet of Things</mark> \u2014 dari antarmuka responsif hingga sistem sensor cerdas.',
+    'hero.btnProjects': 'Lihat Proyek',
+    'hero.btnContact': 'Hubungi Saya',
+    'hero.statsProjects': 'Proyek',
     'hero.statsDomains': 'Domain',
-    'hero.statsCerts':   'Sertifikasi',
+    'hero.statsCerts': 'Sertifikasi',
 
     /* ABOUT */
-    'about.tag':         'Tentang Saya',
-    'about.headingPre':  'Siapa ',
-    'about.major':       'Teknik Informatika',
-    'about.orgTitle':    'Ketua HIMATIKA',
-    'about.orgSub':      'Himpunan Mahasiswa Teknik Informatika',
-    'about.intro':       'Saya <strong>Jehuda Rapha Putra Hermantan</strong>, mahasiswa Teknik Informatika berusia 19 tahun di <strong>Universitas Satu</strong>, berfokus pada pembangunan solusi di bidang <strong>Web Development</strong> dan <strong>Internet of Things (IoT)</strong>.',
-    'about.p1':          'Saya membangun <strong>website interaktif &amp; responsif</strong> dengan UI/UX modern, serta mengembangkan <strong>sistem IoT</strong> untuk monitoring dan kontrol real-time via platform cloud seperti Blynk dan dashboard MQTT.',
-    'about.p2':          'Sebagai <strong>Ketua Himpunan Mahasiswa Teknik Informatika</strong>, saya terbiasa memimpin tim, mengelola proyek end-to-end, dan memastikan setiap solusi tidak hanya berjalan dengan baik tetapi juga memberikan dampak nyata.',
-    'about.skillWeb':    'Pengembangan Web',
-    'about.skillIoT':    'Rekayasa IoT',
-    'about.skillLead':   'Kepemimpinan Tim',
-    'about.skillProblem':'Pemecahan Masalah',
-    'about.btnCerts':    'Lihat Sertifikasi',
-    'about.btnCollab':   'Kolaborasi',
+    'about.tag': 'Tentang Saya',
+    'about.headingPre': 'Siapa ',
+    'about.major': 'Teknik Informatika',
+    'about.orgTitle': 'Ketua HIMATIKA',
+    'about.orgSub': 'Himpunan Mahasiswa Teknik Informatika',
+    'about.intro':
+      'Saya <strong>Jehuda Rapha Putra Hermantan</strong>, mahasiswa Teknik Informatika berusia 19 tahun di <strong>Universitas Satu</strong>, berfokus pada pembangunan solusi di bidang <strong>Web Development</strong> dan <strong>Internet of Things (IoT)</strong>.',
+    'about.p1': 'Saya membangun <strong>website interaktif responsif</strong> dengan UI/UX modern, serta mengembangkan <strong>sistem IoT</strong> untuk monitoring dan kontrol real-time via platform cloud seperti Blynk dan dashboard MQTT.',
+    'about.p2':
+      'Sebagai <strong>Ketua Himpunan Mahasiswa Teknik Informatika</strong>, saya terbiasa memimpin tim, mengelola proyek end-to-end, dan memastikan setiap solusi tidak hanya berjalan dengan baik tetapi juga memberikan dampak nyata.',
+    'about.skillWeb': 'Pengembangan Web',
+    'about.skillIoT': 'Rekayasa IoT',
+    'about.skillLead': 'Kepemimpinan Tim',
+    'about.skillProblem': 'Pemecahan Masalah',
+    'about.btnCerts': 'Lihat Sertifikasi',
+    'about.btnCollab': 'Kolaborasi',
 
     /* PROJECTS */
-    'projects.tag':            'Karya Saya',
-    'projects.headingPre':     'Proyek ',
-    'projects.headingAccent':  'Unggulan',
-    'projects.desc':           'Proyek nyata yang mencakup Pengembangan Web dan Internet of Things \u2014 dibangun dan diimplementasikan dengan dampak nyata.',
+    'projects.tag': 'Karya Saya',
+    'projects.headingPre': 'Proyek ',
+    'projects.headingAccent': 'Unggulan',
+    'projects.desc': 'Proyek nyata yang mencakup Pengembangan Web dan Internet of Things \u2014 dibangun dan diimplementasikan dengan dampak nyata.',
     'projects.labelCompleted': 'Proyek Selesai',
-    'projects.labelOngoing':   'Sedang Berjalan',
+    'projects.labelOngoing': 'Sedang Berjalan',
 
-    'proj.sg.title': 'Sistem Monitoring &amp; Kontrol Smart Garden',
-    'proj.sg.desc':  'Sistem monitoring dan kontrol kebun cerdas berbasis IoT yang memungkinkan pemantauan lingkungan <strong>real-time</strong> melalui aplikasi <strong>Blynk</strong>. Mengukur <strong>suhu</strong>, <strong>kelembaban tanah</strong>, dan <strong>kelembaban udara</strong> dengan kontrol aktuator jarak jauh.',
-    'proj.sg.role':  'Full developer \u2014 desain skema hardware, pengembangan firmware mikrokontroler, integrasi multi-sensor, dan konfigurasi dashboard Blynk.',
+    'proj.sg.title': 'Sistem Monitoring Kontrol Smart Garden',
+    'proj.sg.desc':
+      'Sistem monitoring dan kontrol kebun cerdas berbasis IoT yang memungkinkan pemantauan lingkungan <strong>real-time</strong> melalui aplikasi <strong>Blynk</strong>. Mengukur <strong>suhu</strong>, <strong>kelembaban tanah</strong>, dan <strong>kelembaban udara</strong> dengan kontrol aktuator jarak jauh.',
+    'proj.sg.role': 'Full developer \u2014 desain skema hardware, pengembangan firmware mikrokontroler, integrasi multi-sensor, dan konfigurasi dashboard Blynk.',
 
     'proj.wq.title': 'Sistem Monitoring Kualitas Air IoT',
-    'proj.wq.desc':  'Sistem monitoring kualitas air berbasis IoT yang mengukur tiga parameter kritis secara real-time: <strong>pH</strong> (keasaman), <strong>TDS</strong> (total padatan terlarut), dan <strong>Turbiditas</strong> (kekeruhan). Data dikirim ke dashboard cloud untuk pemantauan jarak jauh yang akurat.',
-    'proj.wq.role':  'IoT Engineer \u2014 pemasangan sensor ke ESP32 dan transmisi data real-time ke cloud via protokol MQTT.',
+    'proj.wq.desc':
+      'Sistem monitoring kualitas air berbasis IoT yang mengukur tiga parameter kritis secara real-time: <strong>pH</strong> (keasaman), <strong>TDS</strong> (total padatan terlarut), dan <strong>Turbiditas</strong> (kekeruhan). Data dikirim ke dashboard cloud untuk pemantauan jarak jauh yang akurat.',
+    'proj.wq.role': 'IoT Engineer \u2014 pemasangan sensor ke ESP32 dan transmisi data real-time ke cloud via protokol MQTT.',
 
     'proj.dd.title': 'Sistem Deteksi Dini Diabetes',
-    'proj.dd.desc':  'Sistem deteksi risiko diabetes dini yang menggabungkan <strong>Machine Learning</strong> dan <strong>IoT</strong> untuk menganalisis parameter biometrik secara non-invasif. Model ML memproses data sensor IoT untuk memprediksi risiko diabetes dan memberikan rekomendasi kesehatan real-time.',
-    'proj.dd.role':  'IoT Engineer \u2014 desain hardware (skematik &amp; PCB), logika pengukuran sensor biometrik, dan integrasi data IoT ke pipeline Machine Learning.',
+    'proj.dd.desc':
+      'Sistem deteksi risiko diabetes dini yang menggabungkan <strong>Machine Learning</strong> dan <strong>IoT</strong> untuk menganalisis parameter biometrik secara non-invasif. Model ML memproses data sensor IoT untuk memprediksi risiko diabetes dan memberikan rekomendasi kesehatan real-time.',
+    'proj.dd.role': 'IoT Engineer \u2014 desain hardware (skematik PCB), logika pengukuran sensor biometrik, dan integrasi data IoT ke pipeline Machine Learning.',
 
-    'proj.sr.title':     'Sistem Monitoring Smart Room Berbasis IoT',
-    'proj.sr.desc':      'Sistem monitoring ruangan cerdas yang menggabungkan <strong>IoT</strong> dan <strong>AI Face Recognition</strong> untuk mendeteksi dan menghitung <strong>penghuni ruangan secara real-time</strong>. Data divisualisasikan di dashboard monitoring terpusat untuk meningkatkan efisiensi pemanfaatan ruang.',
+    'proj.sr.title': 'Sistem Monitoring Smart Room Berbasis IoT',
+    'proj.sr.desc':
+      'Sistem monitoring ruangan cerdas yang menggabungkan <strong>IoT</strong> dan <strong>AI Face Recognition</strong> untuk mendeteksi dan menghitung <strong>penghuni ruangan secara real-time</strong>. Data divisualisasikan di dashboard monitoring terpusat untuk meningkatkan efisiensi pemanfaatan ruang.',
     'proj.sr.roleTitle': 'Peran Saya \u2014 IoT Engineer',
-    'proj.sr.role':      'Bertanggung jawab atas seluruh lapisan <strong>IoT</strong>: desain dan perakitan hardware sensor, pemrograman firmware ESP32, dan transmisi data real-time dari perangkat IoT ke sistem dashboard via protokol MQTT/HTTP.',
+    'proj.sr.role':
+      'Bertanggung jawab atas seluruh lapisan <strong>IoT</strong>: desain dan perakitan hardware sensor, pemrograman firmware ESP32, dan transmisi data real-time dari perangkat IoT ke sistem dashboard via protokol MQTT/HTTP.',
 
     /* CERTIFICATIONS */
-    'certs.tag':          'Kredensial',
-    'certs.headingPre':   'Sertifikasi &amp; ',
-    'certs.headingAccent':'Pencapaian',
-    'certs.desc':         'Sertifikat dan penghargaan yang telah saya raih sebagai bukti kompetensi nyata. Klik kartu manapun untuk melihat sertifikat lengkap.',
+    'certs.tag': 'Kredensial',
+    'certs.headingPre': 'Sertifikasi',
+    'certs.headingAccent': 'Pencapaian',
+    'certs.desc': 'Sertifikat dan penghargaan yang telah saya raih sebagai bukti kompetensi nyata. Klik kartu manapun untuk melihat sertifikat lengkap.',
 
-    'cert.ai.title':      'Dasar-Dasar Kecerdasan Buatan',
-    'cert.ai.desc':       'Studi komprehensif tentang konsep inti AI: machine learning, deep learning, neural network, dan implementasi nyata dalam proyek berbasis data.',
+    'cert.ai.title': 'Dasar-Dasar Kecerdasan Buatan',
+    'cert.ai.desc': 'Studi komprehensif tentang konsep inti AI: machine learning, deep learning, neural network, dan implementasi nyata dalam proyek berbasis data.',
     'cert.article.title': 'Penulisan Artikel Ilmiah',
-    'cert.article.desc':  'Pelatihan penulisan akademik yang sistematis dan terstruktur sesuai standar jurnal internasional terkemuka.',
-    'cert.fiksi.title':   'Juara 3 \u2014 FIKSI 2023',
-    'cert.fiksi.desc':    'Meraih juara 3 dalam kompetisi teknologi digital regional FIKSI 2023 dengan proyek inovatif di bidang teknologi informasi.',
-    'cert.prompt.title':  'Prompt Engineering untuk Developer',
-    'cert.prompt.desc':   'Menguasai teknik prompt engineering untuk membangun aplikasi AI yang efektif dan akurat menggunakan Large Language Models (LLMs).',
-    'cert.python.title':  'Dasar-Dasar Pemrograman Python',
-    'cert.python.desc':   'Menguasai fundamental Python sebagai fondasi utama untuk pengembangan AI, data science, dan otomasi sistem IoT.',
+    'cert.article.desc': 'Pelatihan penulisan akademik yang sistematis dan terstruktur sesuai standar jurnal internasional terkemuka.',
+    'cert.fiksi.title': 'Juara 3 \u2014 FIKSI 2023',
+    'cert.fiksi.desc': 'Meraih juara 3 dalam kompetisi teknologi digital regional FIKSI 2023 dengan proyek inovatif di bidang teknologi informasi.',
+    'cert.prompt.title': 'Prompt Engineering untuk Developer',
+    'cert.prompt.desc': 'Menguasai teknik prompt engineering untuk membangun aplikasi AI yang efektif dan akurat menggunakan Large Language Models (LLMs).',
+    'cert.python.title': 'Dasar-Dasar Pemrograman Python',
+    'cert.python.desc': 'Menguasai fundamental Python sebagai fondasi utama untuk pengembangan AI, data science, dan otomasi sistem IoT.',
 
     /* CONTACT */
-    'contact.tag':           'Kontak',
-    'contact.headingPre':    'Mari ',
+    'contact.tag': 'Kontak',
+    'contact.headingPre': 'Mari ',
     'contact.headingAccent': 'Berkolaborasi',
-    'contact.desc':          'Terbuka untuk diskusi proyek, kolaborasi riset, dan peluang karir di bidang Web dan IoT. Jangan ragu untuk menghubungi!',
+    'contact.desc': 'Terbuka untuk diskusi proyek, kolaborasi riset, dan peluang karir di bidang Web dan IoT. Jangan ragu untuk menghubungi!',
 
     /* FOOTER */
     'footer.tagline': 'Insinyur ide \u2014 mengubah konsep menjadi solusi nyata.',
-    'footer.copy':    '\u00a9 2026 Jehuda Rapha Putra Hermantan. Semua hak dilindungi.',
+    'footer.copy': '\u00a9 2026 Jehuda Rapha Putra Hermantan. Semua hak dilindungi.',
   },
 };
 
@@ -231,7 +243,7 @@ const typingWords = {
 /* ─────────────────────────────────────────────
    3. STATE (localStorage-persisted)
 ───────────────────────────────────────────── */
-let currentLang  = localStorage.getItem('lang')  || 'en';
+let currentLang = localStorage.getItem('lang') || 'en';
 let currentTheme = localStorage.getItem('theme') || 'dark';
 
 /* Respect system preference on first visit (no saved theme) */
@@ -250,10 +262,14 @@ const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)
    completely so the browser default cursor is used.
 ───────────────────────────────────────────── */
 (function hideCursorElements() {
-  const dot  = document.getElementById('cursorDot');
+  const dot = document.getElementById('cursorDot');
   const ring = document.getElementById('cursorRing');
-  if (dot)  { dot.style.display  = 'none'; }
-  if (ring) { ring.style.display = 'none'; }
+  if (dot) {
+    dot.style.display = 'none';
+  }
+  if (ring) {
+    ring.style.display = 'none';
+  }
 })();
 
 /* ─────────────────────────────────────────────
@@ -263,34 +279,31 @@ function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
 
-  const icon  = document.getElementById('themeIcon');
+  const icon = document.getElementById('themeIcon');
   const label = document.getElementById('themeLabel');
 
   if (icon) {
-    icon.className = (theme === 'dark')
-      ? 'fa-solid fa-moon'
-      : 'fa-solid fa-sun';
+    icon.className = theme === 'dark' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
   }
 
   if (label) {
     /* Label shows what clicking will switch TO */
-    const nextKey = (theme === 'dark') ? 'ui.light' : 'ui.dark';
+    const nextKey = theme === 'dark' ? 'ui.light' : 'ui.dark';
     label.setAttribute('data-i18n', nextKey);
-    label.textContent = translations[currentLang][nextKey]
-      || (theme === 'dark' ? 'Light' : 'Dark');
+    label.textContent = translations[currentLang][nextKey] || (theme === 'dark' ? 'Light' : 'Dark');
   }
 
   /* Update <html> CSS variable overrides via data-theme attribute.
      The CSS already handles [data-theme="light"] via body:has checks.
      We additionally add/remove a class for extra specificity fallback. */
   document.body.classList.toggle('theme-light', theme === 'light');
-  document.body.classList.toggle('theme-dark',  theme === 'dark');
+  document.body.classList.toggle('theme-dark', theme === 'dark');
 }
 
 const themeToggleBtn = document.getElementById('themeToggle');
 if (themeToggleBtn) {
   themeToggleBtn.addEventListener('click', () => {
-    currentTheme = (currentTheme === 'dark') ? 'light' : 'dark';
+    currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
     applyTheme(currentTheme);
   });
 }
@@ -319,14 +332,14 @@ function applyLang(lang) {
 
   /* Language toggle UI */
   const langActive = document.getElementById('langActive');
-  const langOther  = document.getElementById('langOther');
+  const langOther = document.getElementById('langOther');
   if (langActive) langActive.textContent = lang.toUpperCase();
-  if (langOther)  langOther.textContent  = (lang === 'en') ? 'ID' : 'EN';
+  if (langOther) langOther.textContent = lang === 'en' ? 'ID' : 'EN';
 
   /* Re-sync theme label text after language switch */
   const themeLabel = document.getElementById('themeLabel');
   if (themeLabel) {
-    const nextKey = (currentTheme === 'dark') ? 'ui.light' : 'ui.dark';
+    const nextKey = currentTheme === 'dark' ? 'ui.light' : 'ui.dark';
     themeLabel.textContent = t[nextKey] || themeLabel.textContent;
   }
 
@@ -337,7 +350,7 @@ function applyLang(lang) {
 const langToggleBtn = document.getElementById('langToggle');
 if (langToggleBtn) {
   langToggleBtn.addEventListener('click', () => {
-    const nextLang = (currentLang === 'en') ? 'id' : 'en';
+    const nextLang = currentLang === 'en' ? 'id' : 'en';
     applyLang(nextLang);
   });
 }
@@ -364,7 +377,7 @@ if (!CSS.supports('animation-timeline', 'scroll()')) {
 /* ─────────────────────────────────────────────
    9. NAVBAR — SCROLL-GLASS + ACTIVE LINK
 ───────────────────────────────────────────── */
-const navbar   = document.getElementById('navbar');
+const navbar = document.getElementById('navbar');
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-link');
 
@@ -415,8 +428,8 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 /* ─────────────────────────────────────────────
    11. MOBILE HAMBURGER MENU
 ───────────────────────────────────────────── */
-const hamburger  = document.getElementById('hamburger');
-const navMenu    = document.getElementById('navMenu');
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('navMenu');
 const navOverlay = document.getElementById('navOverlay');
 
 function openMobileMenu() {
@@ -473,7 +486,7 @@ if (!CSS.supports('animation-timeline', 'view()')) {
         }
       });
     },
-    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' },
   );
 
   document.querySelectorAll('.fade-in').forEach((el, i) => {
@@ -493,7 +506,7 @@ if (!CSS.supports('animation-timeline', 'view()')) {
         }
       });
     },
-    { threshold: 0.1, rootMargin: '0px 0px -30px 0px' }
+    { threshold: 0.1, rootMargin: '0px 0px -30px 0px' },
   );
 
   document.querySelectorAll('.cert-card').forEach((card, i) => {
@@ -508,17 +521,17 @@ if (!CSS.supports('animation-timeline', 'view()')) {
 /* ─────────────────────────────────────────────
    13. TYPING ANIMATION (typewriter effect)
 ───────────────────────────────────────────── */
-let typingEl       = document.querySelector('.typing');
-let typingTimer    = null;
-let typingWordIdx  = 0;
-let typingCharIdx  = 0;
+let typingEl = document.querySelector('.typing');
+let typingTimer = null;
+let typingWordIdx = 0;
+let typingCharIdx = 0;
 let typingDeleting = false;
-let typingPaused   = false;
+let typingPaused = false;
 
-const TYPING_SPEED   = 75;   /* ms per char while typing */
-const DELETING_SPEED = 40;   /* ms per char while deleting */
-const PAUSE_AFTER    = 1500; /* ms pause at full word */
-const PAUSE_BEFORE   = 300;  /* ms pause at empty before next word */
+const TYPING_SPEED = 75; /* ms per char while typing */
+const DELETING_SPEED = 40; /* ms per char while deleting */
+const PAUSE_AFTER = 1500; /* ms pause at full word */
+const PAUSE_BEFORE = 300; /* ms pause at empty before next word */
 
 function typeEffect(words) {
   if (!typingEl || typingPaused) return;
@@ -532,10 +545,10 @@ function typeEffect(words) {
     if (typingCharIdx === current.length) {
       /* Finished typing — pause, then start deleting */
       typingDeleting = true;
-      typingPaused   = true;
+      typingPaused = true;
       typingTimer = setTimeout(() => {
         typingPaused = false;
-        typingTimer  = setTimeout(() => typeEffect(words), DELETING_SPEED);
+        typingTimer = setTimeout(() => typeEffect(words), DELETING_SPEED);
       }, PAUSE_AFTER);
       return;
     }
@@ -546,25 +559,22 @@ function typeEffect(words) {
     if (typingCharIdx === 0) {
       /* Finished deleting — move to next word */
       typingDeleting = false;
-      typingWordIdx  = (typingWordIdx + 1) % words.length;
-      typingTimer    = setTimeout(() => typeEffect(words), PAUSE_BEFORE);
+      typingWordIdx = (typingWordIdx + 1) % words.length;
+      typingTimer = setTimeout(() => typeEffect(words), PAUSE_BEFORE);
       return;
     }
   }
 
-  typingTimer = setTimeout(
-    () => typeEffect(words),
-    typingDeleting ? DELETING_SPEED : TYPING_SPEED
-  );
+  typingTimer = setTimeout(() => typeEffect(words), typingDeleting ? DELETING_SPEED : TYPING_SPEED);
 }
 
 function restartTyping(lang) {
   if (!typingEl) return;
   clearTimeout(typingTimer);
-  typingPaused   = false;
+  typingPaused = false;
   typingDeleting = false;
-  typingCharIdx  = 0;
-  typingWordIdx  = 0;
+  typingCharIdx = 0;
+  typingWordIdx = 0;
   typingEl.textContent = '';
   if (!prefersReducedMotion) {
     typeEffect(typingWords[lang] || typingWords.en);
@@ -582,15 +592,18 @@ function restartTyping(lang) {
 
   const cards = document.querySelectorAll('.hv-card');
   cards.forEach((card, i) => {
-    card.style.opacity   = '0';
+    card.style.opacity = '0';
     card.style.transform = 'translateX(30px)';
     card.style.transition = `opacity 0.6s ease ${0.3 + i * 0.15}s, transform 0.6s ease ${0.3 + i * 0.15}s`;
 
     requestAnimationFrame(() => {
-      setTimeout(() => {
-        card.style.opacity   = '1';
-        card.style.transform = 'translateX(0)';
-      }, 200 + i * 150);
+      setTimeout(
+        () => {
+          card.style.opacity = '1';
+          card.style.transform = 'translateX(0)';
+        },
+        200 + i * 150,
+      );
     });
   });
 })();
@@ -626,14 +639,14 @@ function restartTyping(lang) {
       btn.querySelectorAll('.ripple').forEach((r) => r.remove());
 
       const diameter = Math.max(btn.clientWidth, btn.clientHeight);
-      const rect     = btn.getBoundingClientRect();
+      const rect = btn.getBoundingClientRect();
 
       const ripple = document.createElement('span');
-      ripple.className    = 'ripple';
-      ripple.style.width  = `${diameter}px`;
+      ripple.className = 'ripple';
+      ripple.style.width = `${diameter}px`;
       ripple.style.height = `${diameter}px`;
-      ripple.style.left   = `${e.clientX - rect.left  - diameter / 2}px`;
-      ripple.style.top    = `${e.clientY - rect.top   - diameter / 2}px`;
+      ripple.style.left = `${e.clientX - rect.left - diameter / 2}px`;
+      ripple.style.top = `${e.clientY - rect.top - diameter / 2}px`;
 
       btn.appendChild(ripple);
       ripple.addEventListener('animationend', () => ripple.remove(), { once: true });
@@ -650,14 +663,14 @@ function restartTyping(lang) {
       btn.querySelectorAll('.ripple').forEach((r) => r.remove());
 
       const diameter = Math.max(btn.clientWidth, btn.clientHeight);
-      const rect     = btn.getBoundingClientRect();
+      const rect = btn.getBoundingClientRect();
 
       const ripple = document.createElement('span');
-      ripple.className    = 'ripple';
-      ripple.style.width  = `${diameter}px`;
+      ripple.className = 'ripple';
+      ripple.style.width = `${diameter}px`;
       ripple.style.height = `${diameter}px`;
-      ripple.style.left   = `${e.clientX - rect.left  - diameter / 2}px`;
-      ripple.style.top    = `${e.clientY - rect.top   - diameter / 2}px`;
+      ripple.style.left = `${e.clientX - rect.left - diameter / 2}px`;
+      ripple.style.top = `${e.clientY - rect.top - diameter / 2}px`;
 
       btn.appendChild(ripple);
       ripple.addEventListener('animationend', () => ripple.remove(), { once: true });
@@ -672,11 +685,11 @@ function restartTyping(lang) {
    Keyboard: cert-card has role="button" + tabindex="0"
 ───────────────────────────────────────────── */
 (function initCertModal() {
-  const modal      = document.getElementById('certModal');
-  const modalImg   = document.getElementById('certModalImg');
+  const modal = document.getElementById('certModal');
+  const modalImg = document.getElementById('certModalImg');
   const modalTitle = document.getElementById('certModalTitle');
-  const closeBtn   = document.getElementById('certModalClose');
-  const backdrop   = document.getElementById('certModalBackdrop');
+  const closeBtn = document.getElementById('certModalClose');
+  const backdrop = document.getElementById('certModalBackdrop');
 
   if (!modal) return;
 
@@ -767,9 +780,9 @@ function restartTyping(lang) {
 
   function openCertModal(imgSrc, title) {
     if (!imgSrc) return;
-    modalImg.src             = imgSrc;
-    modalImg.alt             = title || 'Certificate';
-    modalTitle.textContent   = title || '';
+    modalImg.src = imgSrc;
+    modalImg.alt = title || 'Certificate';
+    modalTitle.textContent = title || '';
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
     /* Focus close button for keyboard users */
@@ -800,8 +813,8 @@ function restartTyping(lang) {
   });
 
   /* Close triggers */
-  if (closeBtn)  closeBtn.addEventListener('click', closeCertModal);
-  if (backdrop)  backdrop.addEventListener('click', closeCertModal);
+  if (closeBtn) closeBtn.addEventListener('click', closeCertModal);
+  if (backdrop) backdrop.addEventListener('click', closeCertModal);
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('active')) {
@@ -817,12 +830,12 @@ function restartTyping(lang) {
    Controls: close (×), prev/next arrows, backdrop, Escape, arrow keys, swipe
 ───────────────────────────────────────────── */
 (function initLightbox() {
-  const lightbox   = document.getElementById('lightbox');
-  const lbImg      = document.getElementById('lightboxImg');
-  const lbClose    = document.getElementById('lightboxClose');
-  const lbPrev     = document.getElementById('lightboxPrev');
-  const lbNext     = document.getElementById('lightboxNext');
-  const lbCounter  = document.getElementById('lightboxCounter');
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightboxImg');
+  const lbClose = document.getElementById('lightboxClose');
+  const lbPrev = document.getElementById('lightboxPrev');
+  const lbNext = document.getElementById('lightboxNext');
+  const lbCounter = document.getElementById('lightboxCounter');
   const lbBackdrop = document.getElementById('lightboxBackdrop');
 
   if (!lightbox) return;
@@ -920,20 +933,20 @@ function restartTyping(lang) {
 
   let currentGroup = [];
   let currentIndex = 0;
-  let touchStartX  = 0;
+  let touchStartX = 0;
 
   function showImage() {
     if (!lbImg || !currentGroup.length) return;
 
-    lbImg.style.opacity   = '0';
+    lbImg.style.opacity = '0';
     lbImg.style.transform = 'scale(0.92)';
 
     setTimeout(() => {
       const imgEl = currentGroup[currentIndex];
-      lbImg.src   = imgEl.src;
-      lbImg.alt   = imgEl.alt || 'Project image';
+      lbImg.src = imgEl.src;
+      lbImg.alt = imgEl.alt || 'Project image';
 
-      lbImg.style.opacity   = '1';
+      lbImg.style.opacity = '1';
       lbImg.style.transform = 'scale(1)';
 
       if (lbCounter) {
@@ -959,7 +972,9 @@ function restartTyping(lang) {
   function closeLightbox() {
     lightbox.classList.remove('show');
     document.body.style.overflow = '';
-    setTimeout(() => { if (lbImg) lbImg.src = ''; }, 350);
+    setTimeout(() => {
+      if (lbImg) lbImg.src = '';
+    }, 350);
   }
 
   function prevImage() {
@@ -977,14 +992,12 @@ function restartTyping(lang) {
     img.addEventListener('click', (e) => {
       e.stopPropagation();
 
-      const groupEl  = img.closest('.project-imgs');
+      const groupEl = img.closest('.project-imgs');
       const groupKey = groupEl ? groupEl.dataset.group : null;
 
       let groupImgs;
       if (groupKey) {
-        groupImgs = Array.from(
-          document.querySelectorAll(`.project-imgs[data-group="${groupKey}"] .proj-img.clickable-img`)
-        );
+        groupImgs = Array.from(document.querySelectorAll(`.project-imgs[data-group="${groupKey}"] .proj-img.clickable-img`));
       } else {
         groupImgs = [img];
       }
@@ -995,32 +1008,54 @@ function restartTyping(lang) {
   });
 
   /* Controls */
-  if (lbClose)    lbClose.addEventListener('click', closeLightbox);
+  if (lbClose) lbClose.addEventListener('click', closeLightbox);
   if (lbBackdrop) lbBackdrop.addEventListener('click', closeLightbox);
-  if (lbPrev)     lbPrev.addEventListener('click', (e) => { e.stopPropagation(); prevImage(); });
-  if (lbNext)     lbNext.addEventListener('click', (e) => { e.stopPropagation(); nextImage(); });
+  if (lbPrev)
+    lbPrev.addEventListener('click', (e) => {
+      e.stopPropagation();
+      prevImage();
+    });
+  if (lbNext)
+    lbNext.addEventListener('click', (e) => {
+      e.stopPropagation();
+      nextImage();
+    });
 
   /* Keyboard navigation */
   document.addEventListener('keydown', (e) => {
     if (!lightbox.classList.contains('show')) return;
     switch (e.key) {
-      case 'Escape':     closeLightbox(); break;
-      case 'ArrowLeft':  prevImage();     break;
-      case 'ArrowRight': nextImage();     break;
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
     }
   });
 
   /* Touch swipe */
-  lightbox.addEventListener('touchstart', (e) => {
-    touchStartX = e.changedTouches[0].clientX;
-  }, { passive: true });
+  lightbox.addEventListener(
+    'touchstart',
+    (e) => {
+      touchStartX = e.changedTouches[0].clientX;
+    },
+    { passive: true },
+  );
 
-  lightbox.addEventListener('touchend', (e) => {
-    const diff = touchStartX - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 50) {
-      diff > 0 ? nextImage() : prevImage();
-    }
-  }, { passive: true });
+  lightbox.addEventListener(
+    'touchend',
+    (e) => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) {
+        diff > 0 ? nextImage() : prevImage();
+      }
+    },
+    { passive: true },
+  );
 })();
 
 /* ─────────────────────────────────────────────
@@ -1033,13 +1068,13 @@ function restartTyping(lang) {
 
   document.querySelectorAll('.project-card').forEach((card) => {
     card.addEventListener('mousemove', (e) => {
-      const rect   = card.getBoundingClientRect();
-      const cx     = rect.left + rect.width  / 2;
-      const cy     = rect.top  + rect.height / 2;
-      const dx     = (e.clientX - cx) / (rect.width  / 2);
-      const dy     = (e.clientY - cy) / (rect.height / 2);
-      const tiltX  = dy * -4;   /* max 4deg */
-      const tiltY  = dx *  4;
+      const rect = card.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const dx = (e.clientX - cx) / (rect.width / 2);
+      const dy = (e.clientY - cy) / (rect.height / 2);
+      const tiltX = dy * -4; /* max 4deg */
+      const tiltY = dx * 4;
 
       card.style.transform = `translateY(-8px) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`;
       card.style.transition = 'transform 0.1s ease';
@@ -1060,21 +1095,21 @@ function restartTyping(lang) {
 
   document.querySelectorAll('.hv-card').forEach((card) => {
     card.addEventListener('mousemove', (e) => {
-      const rect  = card.getBoundingClientRect();
-      const cx    = rect.left + rect.width  / 2;
-      const cy    = rect.top  + rect.height / 2;
-      const dx    = (e.clientX - cx) / (rect.width  / 2);
-      const dy    = (e.clientY - cy) / (rect.height / 2);
+      const rect = card.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const dx = (e.clientX - cx) / (rect.width / 2);
+      const dy = (e.clientY - cy) / (rect.height / 2);
       const tiltX = dy * -5;
-      const tiltY = dx *  5;
+      const tiltY = dx * 5;
 
       card.style.transition = 'transform 0.08s ease';
-      card.style.transform  = `translateY(-6px) scale(1.01) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`;
+      card.style.transform = `translateY(-6px) scale(1.01) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`;
     });
 
     card.addEventListener('mouseleave', () => {
       card.style.transition = 'transform 0.5s cubic-bezier(0.34,1.56,0.64,1)';
-      card.style.transform  = '';
+      card.style.transform = '';
     });
   });
 })();
@@ -1085,7 +1120,7 @@ function restartTyping(lang) {
 document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
   link.addEventListener('click', (e) => {
     const targetId = link.getAttribute('href').slice(1);
-    const target   = document.getElementById(targetId);
+    const target = document.getElementById(targetId);
     if (target) {
       e.preventDefault();
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1113,7 +1148,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
         }
       });
     },
-    { threshold: 0.8 }
+    { threshold: 0.8 },
   );
 
   document.querySelectorAll('.section-tag').forEach((tag) => {
@@ -1145,12 +1180,12 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
         if (entry.isIntersecting && !animated) {
           animated = true;
           targets.forEach(({ el, end, suffix }) => {
-            let start     = 0;
-            const dur     = 1200;
-            const step    = 16;
-            const steps   = Math.ceil(dur / step);
-            const inc     = end / steps;
-            let current   = 0;
+            let start = 0;
+            const dur = 1200;
+            const step = 16;
+            const steps = Math.ceil(dur / step);
+            const inc = end / steps;
+            let current = 0;
 
             const timer = setInterval(() => {
               current += inc;
@@ -1165,7 +1200,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
         }
       });
     },
-    { threshold: 0.5 }
+    { threshold: 0.5 },
   );
 
   statsObserver.observe(statsRow);
@@ -1180,11 +1215,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
 
   document.querySelectorAll('.skill-chip').forEach((chip) => {
     chip.addEventListener('mouseenter', () => {
-      chip.style.boxShadow = chip.classList.contains('web')
-        ? '0 8px 24px var(--web-glow)'
-        : chip.classList.contains('iot')
-          ? '0 8px 24px var(--iot-glow)'
-          : '0 8px 24px rgba(34,211,238,.15)';
+      chip.style.boxShadow = chip.classList.contains('web') ? '0 8px 24px var(--web-glow)' : chip.classList.contains('iot') ? '0 8px 24px var(--iot-glow)' : '0 8px 24px rgba(34,211,238,.15)';
     });
     chip.addEventListener('mouseleave', () => {
       chip.style.boxShadow = '';
@@ -1208,7 +1239,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
         }
       });
     },
-    { threshold: 0.2 }
+    { threshold: 0.2 },
   );
 
   /* Inject show-contact CSS */
@@ -1248,7 +1279,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
         }
       });
     },
-    { threshold: 0.3 }
+    { threshold: 0.3 },
   );
 
   fills.forEach((fill) => {
@@ -1268,19 +1299,23 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
   if (!badges.length) return;
 
   let ticking = false;
-  window.addEventListener('scroll', () => {
-    if (ticking) return;
-    requestAnimationFrame(() => {
-      const scrollY = window.scrollY;
-      badges.forEach((badge, i) => {
-        const dir    = i % 2 === 0 ? 1 : -1;
-        const offset = (scrollY * 0.03 * dir).toFixed(2);
-        badge.style.transform = `translateY(${offset}px)`;
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (ticking) return;
+      requestAnimationFrame(() => {
+        const scrollY = window.scrollY;
+        badges.forEach((badge, i) => {
+          const dir = i % 2 === 0 ? 1 : -1;
+          const offset = (scrollY * 0.03 * dir).toFixed(2);
+          badge.style.transform = `translateY(${offset}px)`;
+        });
+        ticking = false;
       });
-      ticking = false;
-    });
-    ticking = true;
-  }, { passive: true });
+      ticking = true;
+    },
+    { passive: true },
+  );
 })();
 
 /* ─────────────────────────────────────────────
@@ -1295,7 +1330,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
     if (!focusable.length) return;
 
     const first = focusable[0];
-    const last  = focusable[focusable.length - 1];
+    const last = focusable[focusable.length - 1];
 
     if (e.key === 'Tab') {
       if (e.shiftKey) {
@@ -1313,7 +1348,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
   }
 
   const certModal = document.getElementById('certModal');
-  const lightbox  = document.getElementById('lightbox');
+  const lightbox = document.getElementById('lightbox');
 
   document.addEventListener('keydown', (e) => {
     if (certModal && certModal.classList.contains('active')) {
@@ -1360,7 +1395,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
 
   const children = Array.from(heroText.children);
   children.forEach((child, i) => {
-    child.style.opacity   = '0';
+    child.style.opacity = '0';
     child.style.transform = 'translateY(24px)';
     child.style.transition = `opacity 0.6s ease ${0.1 + i * 0.1}s, transform 0.6s ease ${0.1 + i * 0.1}s`;
   });
@@ -1368,7 +1403,7 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
   requestAnimationFrame(() => {
     setTimeout(() => {
       children.forEach((child) => {
-        child.style.opacity   = '1';
+        child.style.opacity = '1';
         child.style.transform = 'translateY(0)';
       });
     }, 80);
@@ -1385,41 +1420,59 @@ document.querySelectorAll('.footer-links a[href^="#"]').forEach((link) => {
   function syncThemeVars(theme) {
     const root = document.documentElement;
     if (theme === 'light') {
-      root.style.setProperty('--bg-void',       '#f0f4f8');
-      root.style.setProperty('--bg-deep',       '#e8edf5');
-      root.style.setProperty('--bg-dark',       '#dce4ef');
-      root.style.setProperty('--bg-card',       '#ffffff');
-      root.style.setProperty('--bg-glass',      'rgba(255,255,255,.85)');
-      root.style.setProperty('--accent',        '#0891b2');
-      root.style.setProperty('--accent-2',      '#0e7490');
-      root.style.setProperty('--accent-3',      '#06b6d4');
-      root.style.setProperty('--accent-glow',   'rgba(8,145,178,.2)');
-      root.style.setProperty('--web-color',     '#16a34a');
-      root.style.setProperty('--web-bg',        'rgba(22,163,74,.08)');
-      root.style.setProperty('--web-border',    'rgba(22,163,74,.25)');
-      root.style.setProperty('--iot-color',     '#ea580c');
-      root.style.setProperty('--iot-bg',        'rgba(234,88,12,.08)');
-      root.style.setProperty('--iot-border',    'rgba(234,88,12,.25)');
-      root.style.setProperty('--text-primary',  '#0f172a');
-      root.style.setProperty('--text-secondary','#475569');
-      root.style.setProperty('--text-dim',      '#94a3b8');
-      root.style.setProperty('--text-bright',   '#020617');
-      root.style.setProperty('--border',        'rgba(8,145,178,.12)');
+      root.style.setProperty('--bg-void', '#f0f4f8');
+      root.style.setProperty('--bg-deep', '#e8edf5');
+      root.style.setProperty('--bg-dark', '#dce4ef');
+      root.style.setProperty('--bg-card', '#ffffff');
+      root.style.setProperty('--bg-glass', 'rgba(255,255,255,.85)');
+      root.style.setProperty('--accent', '#0891b2');
+      root.style.setProperty('--accent-2', '#0e7490');
+      root.style.setProperty('--accent-3', '#06b6d4');
+      root.style.setProperty('--accent-glow', 'rgba(8,145,178,.2)');
+      root.style.setProperty('--web-color', '#16a34a');
+      root.style.setProperty('--web-bg', 'rgba(22,163,74,.08)');
+      root.style.setProperty('--web-border', 'rgba(22,163,74,.25)');
+      root.style.setProperty('--iot-color', '#ea580c');
+      root.style.setProperty('--iot-bg', 'rgba(234,88,12,.08)');
+      root.style.setProperty('--iot-border', 'rgba(234,88,12,.25)');
+      root.style.setProperty('--text-primary', '#0f172a');
+      root.style.setProperty('--text-secondary', '#475569');
+      root.style.setProperty('--text-dim', '#94a3b8');
+      root.style.setProperty('--text-bright', '#020617');
+      root.style.setProperty('--border', 'rgba(8,145,178,.12)');
       root.style.setProperty('--border-strong', 'rgba(8,145,178,.28)');
-      root.style.setProperty('--border-hover',  'rgba(8,145,178,.55)');
-      root.style.setProperty('--shadow-card',   '0 4px 24px rgba(15,23,42,.1)');
-      root.style.setProperty('--shadow-glow',   '0 0 30px rgba(8,145,178,.15)');
-      root.style.setProperty('--shadow-deep',   '0 20px 60px rgba(15,23,42,.15)');
+      root.style.setProperty('--border-hover', 'rgba(8,145,178,.55)');
+      root.style.setProperty('--shadow-card', '0 4px 24px rgba(15,23,42,.1)');
+      root.style.setProperty('--shadow-glow', '0 0 30px rgba(8,145,178,.15)');
+      root.style.setProperty('--shadow-deep', '0 20px 60px rgba(15,23,42,.15)');
     } else {
       /* Reset to dark mode defaults (CSS variables reset) */
       const vars = [
-        '--bg-void','--bg-deep','--bg-dark','--bg-card','--bg-glass',
-        '--accent','--accent-2','--accent-3','--accent-glow',
-        '--web-color','--web-bg','--web-border',
-        '--iot-color','--iot-bg','--iot-border',
-        '--text-primary','--text-secondary','--text-dim','--text-bright',
-        '--border','--border-strong','--border-hover',
-        '--shadow-card','--shadow-glow','--shadow-deep',
+        '--bg-void',
+        '--bg-deep',
+        '--bg-dark',
+        '--bg-card',
+        '--bg-glass',
+        '--accent',
+        '--accent-2',
+        '--accent-3',
+        '--accent-glow',
+        '--web-color',
+        '--web-bg',
+        '--web-border',
+        '--iot-color',
+        '--iot-bg',
+        '--iot-border',
+        '--text-primary',
+        '--text-secondary',
+        '--text-dim',
+        '--text-bright',
+        '--border',
+        '--border-strong',
+        '--border-hover',
+        '--shadow-card',
+        '--shadow-glow',
+        '--shadow-deep',
       ];
       vars.forEach((v) => root.style.removeProperty(v));
     }
