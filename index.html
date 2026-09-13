@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="Jehuda Rapha Putra Hermantan — Web Developer, IoT Engineer & AI Enthusiast | Portfolio" />
-    <title>Jehuda | Developer Portfolio</title>
+    <meta name="description" content="Jehuda Rapha Putra Hermantan - Web Developer, IoT Developer & Software Developer | Portfolio" />
+    <title>Jehuda Rapha | Developer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Clash+Display:wght@400;500;600;700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
@@ -31,6 +31,9 @@
         <a href="#projects" class="nav-link" data-text="Projects">Projects</a>
         <a href="#certifications" class="nav-link" data-text="Certifications">Certifications</a>
         <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+      <button class="nav-toggle theme-icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
     </header>
@@ -118,7 +121,7 @@
                 <div class="hv-status"><span class="hv-dot"></span>Active</div>
               </div>
               <h4>Artificial Intelligence</h4>
-              <p>Face Recognition · ML Models · Deep Learning</p>
+              <p>Computer Vision · Image Processing · Python Scripting</p>
               <div class="hv-tags"><span>Python</span><span>TensorFlow</span><span>OpenCV</span></div>
               <div class="hv-progress-bar"><div class="hv-progress-fill ai-fill"></div></div>
             </div>
@@ -254,6 +257,98 @@
             <div class="group-line"></div>
           </div>
           <div class="project-cards">
+            <!-- Water Quality -->
+            <div class="project-card fade-in">
+              <div class="project-imgs" data-group="water-quality">
+                <img src="img/project_iot_ph_tds_tb1.jpeg" alt="Water Quality ” Sensor Setup" class="proj-img clickable-img" />
+                <img src="img/project_iot_ph_tds_tb2.jpeg" alt="Water Quality ” Cloud Dashboard" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                  <span class="domain-badge monitor"><i class="fa-solid fa-chart-line"></i> Monitoring</span>
+                </div>
+                <h3>IoT Water Quality Monitoring System</h3>
+                <p>
+                  Sistem pemantauan kualitas air berbasis IoT yang mengukur tiga parameter kritis secara real-time: <strong>pH</strong> (keasaman), <strong>TDS</strong> (padatan terlarut), dan <strong>Turbidity</strong> (kekeruhan). Data
+                  dikirimkan ke cloud dashboard untuk pemantauan jarak jauh yang akurat.
+                </p>
+                <div class="project-role-block">
+                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya</span>
+                    <p>IoT Engineer - koneksi sensor ke mikrokontroler ESP32 dan transmisi data real-time ke cloud via protokol MQTT.</p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>pH Sensor</span><span>TDS Sensor</span><span>Turbidity</span><span>MQTT</span><span>Cloud Dashboard</span></div>
+              </div>
+            </div>
+
+            <!-- Diabetes Detection -->
+            <div class="project-card fade-in">
+              <div class="project-imgs" data-group="diabetes">
+                <img src="img/diabet 1.jpeg" alt="Diabetes Detection” Hardware Prototype" class="proj-img clickable-img" />
+                <img src="img/diabet 2.jpeg" alt="Diabetes Detection” ML Output &amp; Data" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge ai"><i class="fa-solid fa-brain"></i> AI / ML</span>
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                </div>
+                <h3>Diabetes Early Detection System</h3>
+                <p>
+                  Sistem deteksi dini risiko diabetes yang memadukan <strong>Machine Learning</strong> dan <strong>IoT</strong> untuk menganalisis parameter biometrik secara non-invasif. Model ML memproses data sensor IoT untuk memprediksi
+                  risiko diabetes dan memberikan rekomendasi kesehatan real-time.
+                </p>
+                <div class="project-role-block">
+                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya</span>
+                    <p>IoT Engineer - perancangan perangkat keras (skematik &amp; PCB), desain logika pengukuran sensor biometrik, dan integrasi data IoT ke pipeline Machine Learning.</p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>Biometric Sensor</span><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>IoT Protocol</span></div>
+              </div>
+            </div>
+
+            <!-- Smart Room FEATURED -->
+            <div class="project-card project-card--featured fade-in">
+              <div class="featured-badge"><i class="fa-solid fa-star"></i> Featured</div>
+              <div class="project-imgs" data-group="smart-room">
+                <img src="img/face_recog.png" alt="Smart Room Face Recognition System" class="proj-img clickable-img" />
+                <img src="img/dashboard_face_recog.png" alt="Smart Room Monitoring Dashboard" class="proj-img clickable-img" />
+                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
+                <div class="proj-img-overlay featured-overlay"></div>
+              </div>
+              <div class="project-body">
+                <div class="project-domains">
+                  <span class="domain-badge ai"><i class="fa-solid fa-brain"></i> AI / Vision</span>
+                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
+                  <span class="domain-badge web"><i class="fa-solid fa-gauge-high"></i> Dashboard</span>
+                </div>
+                <h3>IoT-Based Smart Room Monitoring System</h3>
+                <p>
+                  Sistem monitoring ruangan cerdas yang memadukan <strong>IoT</strong> dan <strong>Face Recognition AI</strong> untuk mendeteksi serta menghitung jumlah <strong>okupansi ruangan secara real-time</strong>. Data ditampilkan
+                  melalui dashboard monitoring terpusat untuk meningkatkan efisiensi penggunaan ruangan.
+                </p>
+                <div class="project-role-block featured-role">
+                  <div class="role-icon"><i class="fa-solid fa-microchip"></i></div>
+                  <div class="role-content">
+                    <span class="role-title">Peran Saya: IoT Engineer</span>
+                    <p>
+                      Bertanggung jawab atas seluruh bagian <strong>IoT</strong>: perancangan dan perakitan hardware sensor, pemrograman firmware ESP32, serta integrasi pengiriman data real-time dari perangkat IoT ke sistem dashboard via
+                      protokol MQTT/HTTP.
+                    </p>
+                  </div>
+                </div>
+                <div class="project-tech"><span>ESP32</span><span>MQTT</span><span>Sensor Integration</span><span>Firmware C++</span><span>IoT Protocol</span><span>Real-time Data</span></div>
+              </div>
+            </div>
+
             <!-- Smart Garden -->
             <div class="project-card fade-in">
               <div class="project-imgs" data-group="smart-garden">
@@ -292,104 +387,23 @@
             <span>Sedang Dikerjakan</span>
             <div class="group-line"></div>
           </div>
-          <div class="project-cards">
-            <!-- Water Quality -->
-            <div class="project-card fade-in">
-              <div class="project-imgs" data-group="water-quality">
-                <img src="img/project_iot_ph_tds_tb1.jpeg" alt="Water Quality — Sensor Setup" class="proj-img clickable-img" />
-                <img src="img/project_iot_ph_tds_tb2.jpeg" alt="Water Quality — Cloud Dashboard" class="proj-img clickable-img" />
-                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
-                <div class="proj-img-overlay"></div>
-              </div>
-              <div class="project-body">
+          <div class="project-cards project-cards--simple">
+            <div class="project-card project-card--placeholder fade-in">
+              <div class="project-body project-body--placeholder">
                 <div class="project-domains">
                   <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
-                  <span class="domain-badge monitor"><i class="fa-solid fa-chart-line"></i> Monitoring</span>
+                  <span class="domain-badge monitor"><i class="fa-solid fa-spinner"></i> In Progress</span>
                 </div>
-                <h3>IoT Water Quality Monitoring System</h3>
-                <p>
-                  Sistem pemantauan kualitas air berbasis IoT yang mengukur tiga parameter kritis secara real-time: <strong>pH</strong> (keasaman), <strong>TDS</strong> (padatan terlarut), dan <strong>Turbidity</strong> (kekeruhan). Data
-                  dikirimkan ke cloud dashboard untuk pemantauan jarak jauh yang akurat.
-                </p>
-                <div class="project-role-block">
-                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
-                  <div class="role-content">
-                    <span class="role-title">Peran Saya</span>
-                    <p>IoT Engineer — koneksi sensor ke mikrokontroler ESP32 dan transmisi data real-time ke cloud via protokol MQTT.</p>
-                  </div>
+                <h3>Currently developing: IoT Coffee Bean Color Sorting System</h3>
+                <p>Project masih dalam tahap pengembangan. Detail lengkap akan ditambahkan setelah tahap implementasi selesai.</p>
+                <div class="project-progress-note">
+                  <i class="fa-solid fa-circle-notch"></i>
+                  <span>Work in progress</span>
                 </div>
-                <div class="project-tech"><span>ESP32</span><span>pH Sensor</span><span>TDS Sensor</span><span>Turbidity</span><span>MQTT</span><span>Cloud Dashboard</span></div>
-              </div>
-            </div>
-
-            <!-- Diabetes Detection -->
-            <div class="project-card fade-in">
-              <div class="project-imgs" data-group="diabetes">
-                <img src="img/diabet 1.jpeg" alt="Diabetes Detection — Hardware Prototype" class="proj-img clickable-img" />
-                <img src="img/diabet 2.jpeg" alt="Diabetes Detection — ML Output &amp; Data" class="proj-img clickable-img" />
-                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
-                <div class="proj-img-overlay"></div>
-              </div>
-              <div class="project-body">
-                <div class="project-domains">
-                  <span class="domain-badge ai"><i class="fa-solid fa-brain"></i> AI / ML</span>
-                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
-                </div>
-                <h3>Diabetes Early Detection System</h3>
-                <p>
-                  Sistem deteksi dini risiko diabetes yang memadukan <strong>Machine Learning</strong> dan <strong>IoT</strong> untuk menganalisis parameter biometrik secara non-invasif. Model ML memproses data sensor IoT untuk memprediksi
-                  risiko diabetes dan memberikan rekomendasi kesehatan real-time.
-                </p>
-                <div class="project-role-block">
-                  <div class="role-icon"><i class="fa-solid fa-user-gear"></i></div>
-                  <div class="role-content">
-                    <span class="role-title">Peran Saya</span>
-                    <p>IoT Engineer — perancangan perangkat keras (skematik &amp; PCB), desain logika pengukuran sensor biometrik, dan integrasi data IoT ke pipeline Machine Learning.</p>
-                  </div>
-                </div>
-                <div class="project-tech"><span>ESP32</span><span>Biometric Sensor</span><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>IoT Protocol</span></div>
-              </div>
-            </div>
-
-            <!-- Smart Room — FEATURED -->
-            <div class="project-card project-card--featured fade-in">
-              <div class="featured-badge"><i class="fa-solid fa-star"></i> Featured</div>
-              <div class="project-imgs" data-group="smart-room">
-                <img src="img/face_recog.png" alt="Smart Room — Face Recognition System" class="proj-img clickable-img" />
-                <img src="img/dashboard_face_recog.png" alt="Smart Room — Monitoring Dashboard" class="proj-img clickable-img" />
-                <div class="proj-img-hint"><i class="fa-solid fa-expand"></i> Klik untuk perbesar</div>
-                <div class="proj-img-overlay featured-overlay"></div>
-              </div>
-              <div class="project-body">
-                <div class="project-domains">
-                  <span class="domain-badge ai"><i class="fa-solid fa-brain"></i> AI / Vision</span>
-                  <span class="domain-badge iot"><i class="fa-solid fa-microchip"></i> IoT</span>
-                  <span class="domain-badge web"><i class="fa-solid fa-gauge-high"></i> Dashboard</span>
-                </div>
-                <h3>IoT-Based Smart Room Monitoring System</h3>
-                <p>
-                  Sistem monitoring ruangan cerdas yang memadukan <strong>IoT</strong> dan <strong>Face Recognition AI</strong> untuk mendeteksi serta menghitung jumlah <strong>okupansi ruangan secara real-time</strong>. Data ditampilkan
-                  melalui dashboard monitoring terpusat untuk meningkatkan efisiensi penggunaan ruangan.
-                </p>
-                <div class="project-role-block featured-role">
-                  <div class="role-icon"><i class="fa-solid fa-microchip"></i></div>
-                  <div class="role-content">
-                    <span class="role-title">Peran Saya — IoT Engineer</span>
-                    <p>
-                      Bertanggung jawab atas seluruh bagian <strong>IoT</strong>: perancangan dan perakitan hardware sensor, pemrograman firmware ESP32, serta integrasi pengiriman data real-time dari perangkat IoT ke sistem dashboard via
-                      protokol MQTT/HTTP.
-                    </p>
-                  </div>
-                </div>
-                <div class="project-tech"><span>ESP32</span><span>MQTT</span><span>Sensor Integration</span><span>Firmware C++</span><span>IoT Protocol</span><span>Real-time Data</span></div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== CERTIFICATIONS ==================== -->
+        </div>    <!-- ==================== CERTIFICATIONS ==================== -->
     <section id="certifications" class="certifications">
       <div class="cert-bg-deco" aria-hidden="true">
         <div class="cert-orb"></div>
@@ -415,7 +429,7 @@
             <div class="cert-body">
               <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Dicoding Academy</span>
               <h3>Fundamentals of Artificial Intelligence</h3>
-              <p>Mempelajari konsep dasar AI secara menyeluruh: machine learning, deep learning, neural network, hingga implementasi nyata dalam proyek berbasis data.</p>
+              <p>Dasar AI, machine learning, dan deep learning dalam proyek berbasis data.</p>
             </div>
           </div>
 
@@ -432,14 +446,13 @@
             <div class="cert-body">
               <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Academic Writing</span>
               <h3>Scientific Article Writing</h3>
-              <p>Pelatihan penulisan artikel ilmiah akademik yang sistematis, terstruktur, dan sesuai standar jurnal internasional bereputasi.</p>
+              <p>Pelatihan penulisan artikel ilmiah yang sistematis dan sesuai standar jurnal.</p>
             </div>
           </div>
 
           <!-- 3 — FIKSI 2023 -->
           <div class="cert-card cert-card--award" data-img="img/sertif_fiksi.png" data-title="Juara 3 — FIKSI 2023 Digital Technology Competition">
             <div class="cert-card-glow award-glow"></div>
-            <div class="cert-award-ribbon"><i class="fa-solid fa-trophy"></i> Award</div>
             <div class="cert-thumb">
               <img src="img/sertif_fiksi.png" alt="Sertifikat FIKSI 2023 Juara 3" loading="lazy" />
               <div class="cert-thumb-overlay">
@@ -450,7 +463,7 @@
             <div class="cert-body">
               <span class="cert-issuer cert-award-issuer"><i class="fa-solid fa-trophy"></i> Competition Award</span>
               <h3>Juara 3 — FIKSI 2023</h3>
-              <p>Meraih Juara 3 dalam kompetisi teknologi digital FIKSI 2023 dengan project inovatif di bidang teknologi informasi tingkat regional.</p>
+              <p>Juara 3 FIKSI 2023 untuk project inovatif di bidang teknologi informasi.</p>
             </div>
           </div>
 
@@ -467,7 +480,7 @@
             <div class="cert-body">
               <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Dicoding Academy</span>
               <h3>Prompt Engineering for Developers</h3>
-              <p>Menguasai teknik prompt engineering untuk membangun aplikasi AI yang efektif dan akurat menggunakan Large Language Models (LLM).</p>
+              <p>Teknik prompt engineering untuk membangun aplikasi AI yang efektif.</p>
             </div>
           </div>
 
@@ -484,7 +497,7 @@
             <div class="cert-body">
               <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Dicoding Academy</span>
               <h3>Python Programming Basics</h3>
-              <p>Menguasai dasar-dasar pemrograman Python sebagai fondasi utama untuk pengembangan AI, data science, dan otomasi sistem IoT.</p>
+              <p>Dasar Python untuk AI, data science, dan otomasi sistem IoT.</p>
             </div>
           </div>
         </div>
@@ -505,7 +518,7 @@
         </div>
 
         <div class="contact-cards">
-          <a href="mailto:jehudarapha653@gmail.com" class="contact-card email fade-in">
+          <a href="mailto:jehudarapha653@email.com" class="contact-card email fade-in">
             <div class="cc-glow"></div>
             <div class="contact-icon-wrap">
               <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
@@ -513,7 +526,7 @@
             </div>
             <div class="contact-info">
               <span class="contact-label">Email</span>
-              <span class="contact-value">jehudarapha653@gmail.com</span>
+              <span class="contact-value">jehudarapha653@email.com</span>
             </div>
             <div class="cc-arrow"><i class="fa-solid fa-arrow-right"></i></div>
           </a>
@@ -594,3 +607,5 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+
