@@ -137,7 +137,7 @@ document.querySelectorAll('.cert-card').forEach((card, i) => {
 // =============================================
 const typingEl = document.querySelector('.typing');
 if (typingEl) {
-  const words = ['Web Developer', 'IoT Engineer', 'AI Enthusiast', 'Tech Creator'];
+  const words = ['Web Developer', 'IoT Developer', 'Software Developer'];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
@@ -403,13 +403,21 @@ document.querySelectorAll('.contact-card').forEach((card, i) => {
 })();
 
 // =============================================
-// PROJECT CARD HOVER (extra polish)
+// THEME SETTINGS
 // =============================================
-document.querySelectorAll('.project-card').forEach((card) => {
-  card.addEventListener('mouseenter', () => {
-    card.style.transform = 'translateY(-8px)';
+const themeToggle = document.getElementById('themeToggle');
+const savedTheme = localStorage.getItem('portfolio-theme');
+
+function applyTheme(theme) {
+  document.body.dataset.theme = theme;
+  localStorage.setItem('portfolio-theme', theme);
+}
+
+applyTheme(savedTheme === 'light' ? 'light' : 'dark');
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const nextTheme = document.body.dataset.theme === 'light' ? 'dark' : 'light';
+    applyTheme(nextTheme);
   });
-  card.addEventListener('mouseleave', () => {
-    card.style.transform = 'translateY(0)';
-  });
-});
+}
